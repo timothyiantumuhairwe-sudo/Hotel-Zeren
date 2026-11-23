@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding 0;
+    box sixing; border box;
+}
+body {
+    font-family: Arial,san-serif;
+    background-color: #FFFFF0;
+    color: #333;
+
+}
+  /* NAVBAR */
+   .navbar {
+    background-color: #800020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+   }
+ .navbar img {
+    height: 50px;   
+ } 
+  .nav links a {
+    color: #FFFFF0;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight:bold;
+  } 
+ .nav-links a:hover {
+    color: #C9A84C;
+ } 
+ .hero {
+    background-color: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("hero-serena.jpg");
+
+       background-size: cover;
+       background-position: center;
+       min-height: 500px;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;   
+ }
+ .hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+
+ }
+ .btn {
+    background-color: #C9A84C;
+    color: #800020;
+    padding: 12px 30px;
+    text-decoration: home;
+    font-weight: bold;
+    border-radius: 5px;
+ }
+ .btn:hover {
+    background-color: #FFFFF0;
+ }
+ #rooms {
+    padding: 50px 40px;
+    text-align:center;
+ }
+  h2 {
+    color: #800020;
+    margin-bottom: 30px;  
+  }
+  .room-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+     .room-card {
+        background-color: white;
+        border: 2px solid #C9A84C;
+        padding: 30px;
+        width: 45%;
+        border-radius: 10px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+   .room-card h3 {
+    color: #800020;
+    margin-bottom: 15px;
+   }     
+   .price {
+    color: #C9A84C;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+   }
+     #compare {
+        padding: 50px 30px;
+        text-align: center;
+     }
+     table {
+      width: 100px;
+      border-collapse: collapse;
+      background-color: white;  
+     }
+  th {
+    background-color: #800020;
+    color: #FFFFF0;
+    padding: 15px;
+  }   
+  td {
+    padding: 15px;
+    border: 1px solid #C9A8AC;    
+  }
+  tr:nth-child(even) {
+    background-color: #f5ead2;   
+  }
+ tr:hover {
+    background-color: #ead9ad;
+
+ } 
+   #boooking {
+    padding: 50px;
+    text-align: center;
+    background-color: #800020;
+    color: #FFFFF0;
+   }
+  #booking h2 {
+      color: #C9A8AC;
+      
+  } 
